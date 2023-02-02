@@ -11,11 +11,13 @@ export const Container = styled.div`
 
   height: 100vh;
 
-  max-width: 100%;
+  max-width: 425px;
 
-  width: 425px;
+  width: 100%;
 
   img {
+    margin-bottom: 10px;
+
     width: 200px;
   }
 `;
@@ -27,7 +29,7 @@ export const Content = styled.div`
 
   flex-direction: column;
 
-  gap: 20px;
+  gap: 30px;
 
   justify-content: center;
 
@@ -50,13 +52,13 @@ export const Box = styled.div`
 
   gap: 25px;
 
-  height: 300px;
+  height: 250px;
 
   justify-content: center;
 
   text-align: center;
   
-  width: 300px;
+  width: 250px;
 
   .option1, .option2 {
     color: #FFF;

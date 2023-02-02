@@ -1,7 +1,7 @@
 import { BsFillHandIndexThumbFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { Container, Content } from "./styles";
-import Logo from "../../assets/img/logo.jpeg";
+import Logo from "../../assets/img/logo3.png";
 
 
 function Home() {

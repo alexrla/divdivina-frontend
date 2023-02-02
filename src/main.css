@@ -16,6 +16,8 @@ body {
   height: 100vh;
 
   justify-content: center;
+
+  width: 100%;
 }
 
 a {

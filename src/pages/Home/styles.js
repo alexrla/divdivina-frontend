@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   align-items: center;
 
-  background-color: #FFFFFA;
+  background-color: #FFFFFF;
 
   display: flex;
 
@@ -11,9 +11,9 @@ export const Container = styled.div`
 
   justify-content: center;
 
-  max-width: 100%;
+  max-width: 425px;
 
-  width: 425px;
+  width: 100vw;
 `;
 
 export const Content = styled.div`
@@ -31,9 +31,7 @@ export const Content = styled.div`
 
   justify-content: center;
 
-  max-width: 90%;
-
-  width: 375px;
+  width: 80%;
 
   img {
     margin-top: -50px;
